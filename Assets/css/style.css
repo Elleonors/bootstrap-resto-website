@@ -1,0 +1,40 @@
+/*
+@font-face {
+  font-family: "***";
+  src: url("fonts/***");
+}
+*/
+
+.jumbotron {
+  background-image: url("../img/jumbotron-image-net-compressor.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+/*Palette*/
+.bg-red {
+  background-color : #9E1223;
+}
+.bg-grey {
+  background-color : #2D3033;
+}
+.bg-green {
+  background-color : #EAF415;
+}
+.bg-white {
+  background-color : #F3EAC2;
+}
+.bg-brown {
+  background-color : #5A1F0E;
+}
+.bg-border-red {
+  border-color: #9E1223;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+}
+.navbar-brand{
+  height: auto;
+}
