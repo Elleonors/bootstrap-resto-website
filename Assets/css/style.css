@@ -1,16 +1,3 @@
-/*
-@font-face {
-  font-family: "***";
-  src: url("fonts/***");
-}
-*/
-
-.jumbotron {
-  background-image: url("../img/jumbotron-image-net-compressor.jpg");
-  background-size: cover;
-  height: 500px;
-}
-
 /*Palette*/
 .bg-red {
   background-color : #9E1223;
@@ -27,14 +14,53 @@
 .bg-brown {
   background-color : #5A1F0E;
 }
-.bg-border-red {
-  border-color: #9E1223;
+
+/*Jumbotron*/
+.jumbotron {
+  background-image: url("../img/jumbotron-image-net-compressor.jpg");
+  background-size: cover;
+  height: 500px;
+  padding: 0;
+  margin-bottom: 0;
 }
 
-header {
-  height: 100px;
-  width: 100%;
-}
+/*classes to stick the navbar*/
 .navbar-brand{
   height: auto;
+  margin: 0;
+}
+#navbar {
+  overflow: hidden;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  background-color: #F3EAC2;
+  color: #2D3033;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*Images photos*/
+span > img, div > img {
+  max-height: 300px;
+  max-width: 300px;
+  margin: auto;    
+  display: block;
 }
