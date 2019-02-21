@@ -6,20 +6,19 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta charset='utf-8'>
     <link rel='shortcut icon' href='Assets/img/favicon.ico'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel='stylesheet' href='Assets/css/style.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
 
-  <body>
+  <body class="bg-white">
 
-    <header>
-      
-        <nav class="navbar navbar-default bg-grey">
+      <div class="bg-grey">
+        <nav id="navbar" class="navbar navbar-expand-sm bg-grey">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand bg-white" href="index.html"><img id="logo" src="Assets/img/logo.png"></a>
+              <a class="navbar-brand" href="index.html"><img id="logo" src="Assets/img/logo.png"></a>
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="carte.html">Carte</a></li>
@@ -29,11 +28,24 @@
             </ul>
           </div>
         </nav>
-        
-    </header>
+      </div>
+    
+    <div class="container text-center">
 
-    <div class='maincontainer bg-white'></div>
+      <div class="row bg-info">
+        <div class="col-md-12"><h1>Menu</h1></div>
+      </div><div class="row">
+        <div class="offset-md-1 col-md-2"><button class="bg-brown" type="button">Binche</button></div>
+        <div class="offset-md-2 col-md-2"><button class="bg-red" type="button">La Louvière</button></div>
+        <div class="offset-md-2 col-md-2"><button class="bg-green" type="button">Mons</button></div>
+      </div><div class="row">
+        <div class="offset-md-5 col-md-2"><p id="message">I'm open</p></div>
+      </div><div class="row">
+        <div class="offset-md-1 col-md-10"><p id="menu">Hello parking meter !</p></div>
+      </div>
 
+    </div>
+    
     <script type='text/javascript' src='Assets/js/script.js'></script>
 
   </body>
