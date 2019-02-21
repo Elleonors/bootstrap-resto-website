@@ -32,21 +32,66 @@
     
     <div class="container text-center">
 
-      <div class="row bg-info">
+      <div class="row">
         <div class="col-md-12"><h1>Menu</h1></div>
       </div><div class="row">
-        <div class="offset-md-1 col-md-2"><button class="bg-brown" type="button">Binche</button></div>
-        <div class="offset-md-2 col-md-2"><button class="bg-red" type="button">La Louvière</button></div>
-        <div class="offset-md-2 col-md-2"><button class="bg-green" type="button">Mons</button></div>
+        <div class="offset-md-1 col-md-2"><button id="binche" class="bg-grey" type="button">Binche</button></div>
+        <div class="offset-md-2 col-md-2"><button id="la-louviere" class="bg-red" type="button">La Louvière</button></div>
+        <div class="offset-md-2 col-md-2"><button id="mons" class="bg-green" type="button">Mons</button></div>
       </div><div class="row">
         <div class="offset-md-5 col-md-2"><p id="message">I'm open</p></div>
       </div><div class="row">
-        <div class="offset-md-1 col-md-10"><p id="menu">Hello parking meter !</p></div>
+        <p id="menu"></p>
+        <div class="offset-md-1 col-md-10">
+
+          <div id="binche-container" class="container">
+            <div class="row">
+              <div class="col-md-8">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.054844591639!2d4.185859614999452!3d50.477322693310484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c237b2f99fdd13%3A0x193990f9a99cc856!2sRue+Albert+1+5%2C+7100+La+Louvi%C3%A8re!5e0!3m2!1sfr!2sbe!4v1550756833081" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              
+              </div>
+              <div class="col-md-4">
+
+                <div class="row">
+                  <div class="col-md-6"><p>Lundi</p></div>
+                  <div class="col-md-6"><p>Fermé</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6"><p>Mardi</p></div>
+                  <div class="col-md-6"><p>12:00–14:00, 18:00–22:00</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6"><p>Mercredi</p></div>
+                  <div class="col-md-6"><p>12:00–14:00, 18:00–22:00</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6"><p>Jeudi</p></div>
+                  <div class="col-md-6"><p>12:00–14:00, 18:00–22:00</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6"><p>Vendredi</p></div>
+                  <div class="col-md-6"><p>12:00–14:00, 18:00–22:00</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6"><p>Samedi</p></div>
+                  <div class="col-md-6"><p>12:00–14:00, 18:00–22:00</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6"><p>Dimanche</p></div>
+                  <div class="col-md-6"><p>12:00–14:00, 18:00–22:00</p></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
       </div>
 
     </div>
     
-    <script type='text/javascript' src='Assets/js/script.js'></script>
+    <script type='text/javascript' src='Assets/js/buttons.js'></script>
 
   </body>
   
