@@ -68,7 +68,7 @@ function action(paramatredunavigateur){
 
 document.getElementById("binche").addEventListener("click", function binche() {
   document.getElementById("menu").innerHTML="Binche";
-  document.getElementById("maps").setAttribute("src", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10170.229522512498!2d4.166234!3d50.412086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22135027b4553731!2sSushi+%C3%A0+la+Vie+Binche!5e0!3m2!1sfr!2sbe!4v1550831632394");
+  document.getElementById("maps").src = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10170.229522512498!2d4.166234!3d50.412086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22135027b4553731!2sSushi+%C3%A0+la+Vie+Binche!5e0!3m2!1sfr!2sbe!4v1550831632394";
   document.getElementById("lundi").innerHTML="BINCHE :Je suis l'horaire du lundi";
   document.getElementById("mardi").innerHTML="BINCHE :Je suis l'horaire du mardi";
   document.getElementById("mercredi").innerHTML="BINCHE :Je suis l'horaire du mercredi";
@@ -79,7 +79,7 @@ document.getElementById("binche").addEventListener("click", function binche() {
 });
 document.getElementById("la-louviere").addEventListener("click", function lalouviere() {
   document.getElementById("menu").innerHTML="La Louvière";
-  document.getElementById("maps").setAttribute("src", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10156.191917845925!2d4.187926!3d50.4774505!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c95cf9a58bfc4c5!2sSushi+%C3%A0+la+vie+La+Louviere!5e0!3m2!1sfr!2sbe!4v1550831692821");
+  document.getElementById("maps").src = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10156.191917845925!2d4.187926!3d50.4774505!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c95cf9a58bfc4c5!2sSushi+%C3%A0+la+vie+La+Louviere!5e0!3m2!1sfr!2sbe!4v1550831692821";
   document.getElementById("lundi").innerHTML="LA LOUVIERE :Je suis l'horaire du lundi";
   document.getElementById("mardi").innerHTML="LA LOUVIERE :Je suis l'horaire du mardi";
   document.getElementById("mercredi").innerHTML="LA LOUVIERE :Je suis l'horaire du mercredi";
@@ -90,7 +90,7 @@ document.getElementById("la-louviere").addEventListener("click", function lalouv
 });
 document.getElementById("mons").addEventListener("click", function mons() {
   document.getElementById("menu").innerHTML="Mons";
-  document.getElementById("maps").setAttribute("src", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10161.546557068448!2d3.9519309!3d50.4525245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x39ef9e1348a1877b!2sSushi+%C3%A0+la+vie+Mons!5e0!3m2!1sfr!2sbe!4v1550831733556");
+  document.getElementById("maps").src = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10161.546557068448!2d3.9519309!3d50.4525245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x39ef9e1348a1877b!2sSushi+%C3%A0+la+vie+Mons!5e0!3m2!1sfr!2sbe!4v1550831733556";
   document.getElementById("lundi").innerHTML="MONS :Je suis l'horaire du lundi";
   document.getElementById("mardi").innerHTML="MONS :Je suis l'horaire du mardi";
   document.getElementById("mercredi").innerHTML="MONS :Je suis l'horaire du mercredi";
