@@ -33,6 +33,7 @@
 #navbar {
   overflow: hidden;
   border-color: #2D3033;
+  z-index: 10;
 }
 #navbar a {
   float: left;
@@ -58,7 +59,10 @@
 .sticky + .content {
   padding-top: 60px;
 }
-
+h1 {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
 /*Images photos*/
 span > img, div > img {
   height: 300px;

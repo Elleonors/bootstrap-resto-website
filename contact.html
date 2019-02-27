@@ -18,7 +18,7 @@
         <nav id="navbar" class="navbar navbar-expand-sm bg-grey">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"><img id="logo" src="Assets/img/logo.png"></a>
+              <a class="navbar-brand" href="index.html"><img alt="le logo du site" id="logo" src="Assets/img/logo.png"></a>
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="carte.html">Carte</a></li>
@@ -30,11 +30,34 @@
         </nav>
       </div>
         
+      <div class="container">
+        <div class="row"><h1 class="text-center">fiche d'amélioration</h1></div>
+        <div class="row">
+          <form class="offset-col-md-3 col-md-6">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Votre adresse mail : </label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">Nous ne partagerons pas vos données personnelles.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Type de produit</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option>plateaux</option>
+                <option>sushis</option>
+                <option>makis</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Votre demande :</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button id="button" type="submit" class="btn bg-red">Envoyer</button>
+          </form>
+        </div>
+      </div>
 
-    
-
-    <script type='text/javascript' src='Assets/js/script.js'></script>
-
+    <script type='text/javascript' src='Assets/js/submit.js'></script>
+      
   </body>
   
 </html>

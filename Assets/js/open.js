@@ -13,17 +13,6 @@
     var m = d.getMinutes();
     var openclosed ="";
 
-   /*
-   if (d.getDay() == 1) {
-       openclosed = "Désolé , nous sommes fermés"
-   } else {
-       if (h >= 12 & h < 14 && h >= 18 & h <= 22) {
-            openclosed = "nous sommes ouverts !"
-       } else {
-            openclosed = "Désolé , nous sommes fermés"
-       }
-   }
-*/
 
   if ((h >= 12) && (h <= 22) && (day != 1) && (h != 14) && (h != 15) && (h != 16) && (h != 17)) {
     openclosed = "nous sommes ouverts !";
@@ -37,4 +26,3 @@
 
 
 })();
-
