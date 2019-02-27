@@ -14,6 +14,9 @@
 .bg-brown {
   background-color : #5A1F0E;
 }
+.style-white {
+  color: #F3EAC2;
+}
 
 /*Jumbotron*/
 .jumbotron {
@@ -93,3 +96,8 @@ button {
   @keyframes bonjour{
   0% {opacity: 0; margin-top: 10px;}
   }
+
+#infoposition {
+  padding-top: 25px;
+  font-size: 75%
+}
